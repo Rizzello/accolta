@@ -1,6 +1,10 @@
 # Accolta
 
 [![CI](https://github.com/Rizzello/accolta/actions/workflows/ci.yml/badge.svg)](https://github.com/Rizzello/accolta/actions/workflows/ci.yml)
+![PHP](https://img.shields.io/badge/PHP-8.3+-777BB4?logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-13.x-FF2D20?logo=laravel&logoColor=white)
+![Filament](https://img.shields.io/badge/Filament-5.x-FDAE4B)
+![License](https://img.shields.io/github/license/Rizzello/accolta)
 
 API-first submission backend for teams that need reliable public intake endpoints.
 
