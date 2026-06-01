@@ -1,5 +1,7 @@
 # Accolta
 
+[![CI](https://github.com/Rizzello/accolta/actions/workflows/ci.yml/badge.svg)](https://github.com/Rizzello/accolta/actions/workflows/ci.yml)
+
 API-first submission backend for teams that need reliable public intake endpoints.
 
 Accolta lets administrators configure public JSON endpoints for collecting structured submissions from external websites, CMSs, event pages, and product pages.
