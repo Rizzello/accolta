@@ -1,0 +1,44 @@
+includes:
+  - vendor/larastan/larastan/extension.neon
+  - vendor/nesbot/carbon/extension.neon
+
+parameters:
+  level: max
+
+  paths:
+    - app
+    - bootstrap/app.php
+    - config
+    - database/factories
+    - database/seeders
+    - routes
+    - tests
+
+  excludePaths:
+    analyse:
+      - bootstrap/cache
+      - storage
+      - vendor
+      - node_modules (?)
+      - public/build (?)
+      - public/hot (?)
+
+  tmpDir: storage/framework/cache/phpstan
+
+  checkModelProperties: true
+  checkModelAppends: true
+  checkConfigTypes: true
+  checkOctaneCompatibility: true
+
+  databaseMigrationsPath:
+    - database/migrations
+
+  squashedMigrationsPath:
+    - database/schema
+
+  disableMigrationScan: false
+
+  reportUnmatchedIgnoredErrors: true
+  treatPhpDocTypesAsCertain: true
+
+  tipsOfTheDay: false
